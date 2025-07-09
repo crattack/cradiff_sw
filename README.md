@@ -11,11 +11,12 @@
 - sudo apt install python3-pip
 - pip install r2pipe
   - python3 가상화 사용하라고 할 경우 강제 시스템에 설치 : pip install r2pipe --break-system-packages
-- pip install graphviz
-- pip install bs4
-- pip install Pillow  #PIL
-- r2pm -U  #radare2 plugin 설치시 사용하는 명령어
-  - r2pm -ci r2ghidra #radar2 ghidra plugin, pseudo code 생성용
+- r2pm -ic r2ghidra
+  - 오류 발생 시 sudo 붙여서 진행
+  - r2pm -ic r2ghidra-sleigh
+    - apt install unzip pkg-config
+- pip3 install r2pipe bs4 graphviz
+- dot  설치 : sudo apt-get install graphviz
 
 # 개발 요구 사항
 1. r2pipe를 통한 통신 진행
