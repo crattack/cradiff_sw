@@ -22,4 +22,6 @@
 2. diffing 결과에 대한 ASM, pseudo code, CFG(Compare Function Graphic) 기능 추가
 3. 보고서에 대한 정리 필요
 
-
+# 실습 바이너리 파일
+- wget https://msdl.microsoft.com/download/symbols/ntkrnlmp.exe/F7E31BA91047000/ntkrnlmp.exe -O ntkrnlmp.exe.x64.10.0.22621.1344
+- wget https://msdl.microsoft.com/download/symbols/ntkrnlmp.exe/17B6B7221047000/ntkrnlmp.exe -O ntkrnlmp.exe.x64.10.0.22621.1413
