@@ -8,7 +8,7 @@
   - git clone https://github.com/radareorg/radare2
   - radare2/sys/install.sh
 - sudo apt install graphviz
-- sudo apt python3-pip
+- sudo apt install python3-pip
 - pip install r2pipe
   - python3 가상화 사용하라고 할 경우 강제 시스템에 설치 : pip install r2pipe --break-system-packages
 - pip install graphviz
